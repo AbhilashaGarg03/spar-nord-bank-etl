@@ -1,0 +1,56 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+data/
+raw_data/
+processed_data/
+
+# Logs
+*.log
+logs/
+
+# Cache
+*.cache
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files
+*.db
+*.sqlite
+
+# Config overrides
+config/local/
